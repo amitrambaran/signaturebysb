@@ -41,7 +41,7 @@ body{
     padding-bottom: 15px;
 }
 
-#blurb-text span{
+span{
     color: red;
 }
 
@@ -67,4 +67,12 @@ p{
     nav.navbar {
         background: black;
     }
+  }
+
+  footer{
+      color: white;
+  }
+  
+  footer span{
+      color: rgb(51,102,187)
   }
