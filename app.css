@@ -1,14 +1,13 @@
 body{
     background: #050505;
     font-family: 'Nunito Sans', sans-serif;
-    text-transform: uppercase;
     color: white;
-    padding-top:100px;
-    position: relative;
+    padding-top:50px;
 }
 
 #mainNav{
     font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .navbar-brand img{
@@ -24,6 +23,7 @@ body{
 
 #signaturebysb-text h2{
     font-size: 2.5rem;
+    text-transform: uppercase;
 }
 
 #signaturebysb-text span{
