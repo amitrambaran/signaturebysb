@@ -2,12 +2,13 @@ body{
     background: #050505;
     font-family: 'Nunito Sans', sans-serif;
     color: white;
-    padding-top:50px;
+    padding-top:100px;
 }
 
 #mainNav{
     font-size: 2rem;
     text-transform: uppercase;
+
 }
 
 .navbar-brand img{
@@ -21,53 +22,30 @@ body{
     margin-right: 20px;
 }
 
-#signaturebysb-text h2{
-    font-size: 2.5rem;
-    text-transform: uppercase;
-}
-
-#signaturebysb-text span{
+#sb-design span{
     color: yellow;
-}
-
-@media (max-width:1500px){
-    #signaturebysb-text h2{
-        font-size: 2rem;
-    }
 }
 
 .dj-icon{
     width: 10%;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 span{
     color: red;
 }
 
-#blurb-text h1{
-    font-size: 3rem;
-}
 
 .slice{
 
     padding-bottom: 30px;
 }
 
-p{
-    font-size: 1.7rem;
-}
-
 .navbar.scrolled{
-    background:rgb(12, 12, 12);
-    transition: 250ms;
+    background:black;
+    transition: 500ms;
 }
-
-@media (max-width: 768px) {
-    nav.navbar {
-        background: black;
-    }
-  }
 
   footer{
       color: white;
@@ -76,3 +54,30 @@ p{
   footer span{
       color: rgb(51,102,187)
   }
+
+
+  @media only screen and (max-width: 768px) {
+    
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+  }
+
+  @media only screen and (max-width: 1200px) {
+
+    #mainNav{
+        background-color: #050505;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+        
+  }
+
