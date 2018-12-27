@@ -3,6 +3,7 @@ body{
     font-family: 'Nunito Sans', sans-serif;
     text-transform: uppercase;
     color: white;
+    padding-top:100px;
 }
 
 #mainNav{
@@ -28,8 +29,35 @@ body{
     color: yellow;
 }
 
-@media (max-width:1400px){
+@media (max-width:1500px){
     #signaturebysb-text h2{
         font-size: 2rem;
     }
+}
+
+.dj-icon{
+    width: 10%;
+    padding-bottom: 15px;
+}
+
+#blurb-text span{
+    color: red;
+}
+
+#blurb-text h1{
+    font-size: 3rem;
+}
+
+.slice{
+
+    padding-bottom: 30px;
+}
+
+p{
+    font-size: 1.7rem;
+}
+
+.navbar.scrolled{
+    background:rgb(12, 12, 12);
+    transition: 250ms;
 }
