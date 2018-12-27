@@ -4,6 +4,7 @@ body{
     text-transform: uppercase;
     color: white;
     padding-top:100px;
+    position: relative;
 }
 
 #mainNav{
@@ -61,3 +62,9 @@ p{
     background:rgb(12, 12, 12);
     transition: 250ms;
 }
+
+@media (max-width: 768px) {
+    nav.navbar {
+        background: black;
+    }
+  }
