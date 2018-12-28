@@ -37,12 +37,6 @@ span{
     color: red;
 }
 
-
-.slice{
-
-    padding-bottom: 30px;
-}
-
 .navbar.scrolled{
     background:black;
     transition: 500ms;
